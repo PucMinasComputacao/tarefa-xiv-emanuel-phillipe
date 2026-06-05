@@ -1,0 +1,255 @@
+{
+  "student": {
+    "id": 1,
+    "name": "Emanuel Phillipe Ribeiro Ferreira de Carvalho",
+    "registration": "892627",
+    "course": "Desenvolvimento de Interfaces Web",
+    "bio": "Aluno responsável pela criação do catálogo dinâmico de álbuns e inspirações musicais."
+  },
+  "albums": [
+    {
+      "id": "1",
+      "title": "Future Nostalgia",
+      "singer": "Dua Lipa",
+      "year": 2020,
+      "genre": "Pop / Dance-pop",
+      "country": "Reino Unido",
+      "inspiration": "Disco dos anos 80, pop eletrônico e cultura club.",
+      "tracks": 11,
+      "price": "R$ 49,90",
+      "shortDescription": "Produção vibrante e nostálgica com batidas dançantes.",
+      "description": "Álbum com produção vibrante e nostálgica, combinando batidas dançantes, letras modernas e referências ao pop eletrônico de pista.",
+      "coverImage": "https://assets.b9.com.br/wp-content/uploads/2020/03/du-lipa-future-nostalgi_capa.jpg",
+      "featured": true,
+      "tags": [
+        "pop",
+        "dance-pop",
+        "anos 80",
+        "club"
+      ],
+      "photos": [
+        {
+          "id": 1,
+          "title": "Capa Oficial",
+          "image": "https://upload.wikimedia.org/wikipedia/pt/c/c7/Dua_Lipa_-_Future_Nostalgia.png"
+        },
+        {
+          "id": 2,
+          "title": "Making Of",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQclqgqaZpKvPv_CTcyrxMKvg1jy94lQF0aVA&s"
+        },
+        {
+          "id": 3,
+          "title": "Sessão Promocional",
+          "image": "https://pics.filmaffinity.com/dua_lipa_dance_the_night-753762007-large.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Show ao Vivo",
+          "image": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/06/dua-lipa-glastonbury-6-e1719665410178.jpg?w=1200&h=1200&crop=1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "25",
+      "singer": "Adele",
+      "year": 2015,
+      "genre": "Soul / Pop",
+      "country": "Reino Unido",
+      "inspiration": "Vivências pessoais, amadurecimento emocional e soul clássico.",
+      "tracks": 11,
+      "price": "R$ 54,90",
+      "shortDescription": "Vocais fortes e composições emotivas sobre memória.",
+      "description": "Trabalho marcado por vocais fortes e composições emotivas sobre memória, amadurecimento, saudade e crescimento pessoal.",
+      "coverImage": "https://media.vanityfair.com/photos/564f39e4167233bb4b83951d/master/w_2560%2Cc_limit/adele-25-new-album-bruce-handy.jpg",
+      "featured": true,
+      "tags": [
+        "soul",
+        "pop",
+        "balada",
+        "vocal"
+      ],
+      "photos": [
+        {
+          "id": 1,
+          "title": "Capa de Estúdio",
+          "image": "https://upload.wikimedia.org/wikipedia/pt/7/7d/Capa_de_25.png"
+        },
+        {
+          "id": 2,
+          "title": "Clipe Promocional",
+          "image": "https://sonicdiscos.com.br/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-29-at-12.30.28-1.webp"
+        },
+        {
+          "id": 3,
+          "title": "Ensaio Fotográfico",
+          "image": "https://www.vagalume.com.br/adele/images/adele.webp"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "After Hours",
+      "singer": "The Weeknd",
+      "year": 2020,
+      "genre": "R&B / Synth-pop",
+      "country": "Canadá",
+      "inspiration": "Cinema noir, synthwave e experiências noturnas urbanas.",
+      "tracks": 14,
+      "price": "R$ 59,90",
+      "shortDescription": "Projeto conceitual com atmosfera sombria e urbana.",
+      "description": "Projeto conceitual com atmosfera sombria, narrativas intensas, estética urbana e influências marcantes dos sintetizadores dos anos 80.",
+      "coverImage": "https://busterz.com.br/wp-content/uploads/2020/04/After-Hours.jpg",
+      "featured": true,
+      "tags": [
+        "r&b",
+        "synth-pop",
+        "noir",
+        "urbano"
+      ],
+      "photos": [
+        {
+          "id": 1,
+          "title": "Capa Original",
+          "image": "https://upload.wikimedia.org/wikipedia/pt/c/c1/The_Weeknd_-_After_Hours.png"
+        },
+        {
+          "id": 2,
+          "title": "Concept Art",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG4Gn4UELLKhobwrhpeB1nO9gX8GK4v9njLw&s"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Lover",
+      "singer": "Taylor Swift",
+      "year": 2019,
+      "genre": "Pop",
+      "country": "Estados Unidos",
+      "inspiration": "Romantismo moderno, cores pastel e narrativa autobiográfica.",
+      "tracks": 18,
+      "price": "R$ 44,90",
+      "shortDescription": "Sonoridade leve sobre amor, identidade e afeto.",
+      "description": "Álbum com sonoridade leve e múltiplas camadas líricas sobre amor, identidade, romantismo moderno e narrativa autobiográfica.",
+      "coverImage": "https://celulapop.com.br/wp-content/uploads/2019/08/taylor-swift-lover-sales-predictions.jpg",
+      "featured": false,
+      "tags": [
+        "pop",
+        "romance",
+        "pastel",
+        "autobiográfico"
+      ],
+      "photos": [
+        {
+          "id": 1,
+          "title": "Visual Oficial",
+          "image": "https://upload.wikimedia.org/wikipedia/pt/1/19/Capa_de_Lover_por_Taylor_Swift_%282019%29.png"
+        },
+        {
+          "id": 2,
+          "title": "Foto de Divulgação",
+          "image": "https://capricho.abril.com.br/wp-content/uploads/2019/08/taylor-swift-lover-album.jpg?quality=85&strip=info&w=683"
+        },
+        {
+          "id": 3,
+          "title": "Bastidores do Álbum",
+          "image": "https://electricladystudios.com/wp-content/uploads/2019/11/zunrlfc3fc531-606x600.png"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Divide",
+      "singer": "Ed Sheeran",
+      "year": 2017,
+      "genre": "Pop / Folk-pop",
+      "country": "Reino Unido",
+      "inspiration": "Folk irlandês, música acústica e histórias cotidianas.",
+      "tracks": 12,
+      "price": "R$ 39,90",
+      "shortDescription": "Mistura de simplicidade acústica e hits pop globais.",
+      "description": "Obra que mistura simplicidade acústica, influências do folk irlandês, histórias cotidianas e hits pop de alcance global.",
+      "coverImage": "https://images.genius.com/fb4b28da4a8f736b6f51df908257e0fd.1000x563x1.jpg",
+      "featured": false,
+      "tags": [
+        "pop",
+        "folk-pop",
+        "acústico",
+        "irlandês"
+      ],
+      "photos": [
+        {
+          "id": 1,
+          "title": "Arte da Capa",
+          "image": "https://upload.wikimedia.org/wikipedia/pt/d/d3/Ed_Sheeran_-_Divide.png"
+        },
+        {
+          "id": 2,
+          "title": "Sessão Acústica",
+          "image": "https://images.genius.com/3a003ac20c81e4a2c41dcae206586c48.499x499x1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Born This Way",
+      "singer": "Lady Gaga",
+      "year": 2011,
+      "genre": "Pop / Electronic",
+      "country": "Estados Unidos",
+      "inspiration": "Expressão individual, cultura pop e dance music.",
+      "tracks": 14,
+      "price": "R$ 47,90",
+      "shortDescription": "Mensagem de autoaceitação com estética pop ousada.",
+      "description": "Álbum marcante por sua mensagem de autoaceitação, estética ousada, cultura pop teatral e energia de dance music.",
+      "coverImage": "https://s2.glbimg.com/-PYfjOybqEzu-1q2T0ZqwsXgKCs=/smart/e.glbimg.com/og/ed/f/original/2021/06/15/lady_gaga_born_this_way.jpg",
+      "featured": false,
+      "tags": [
+        "pop",
+        "electronic",
+        "dance",
+        "autoaceitação"
+      ],
+      "photos": [
+        {
+          "id": 1,
+          "title": "Capa Alternativa",
+          "image": "https://static.wikia.nocookie.net/ladygaga/images/0/0a/Born_This_Way_The_Tenth_Anniversary_artwork.jpg/revision/latest/scale-to-width/360?cb=20210624140044"
+        },
+        {
+          "id": 2,
+          "title": "Bastidores da Turnê",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa-7AkZOsNgQPO7qrIKtGm6vqvCjh3l9RoTw&s"
+        }
+      ]
+    },
+    {
+      "id": "7eeb",
+      "title": "RENAISSANCE",
+      "singer": "Beyoncé",
+      "year": 2022,
+      "genre": "Pop / Dance-pop",
+      "country": "Estados Unidos",
+      "inspiration": "Madonna",
+      "tracks": 16,
+      "price": "56,90",
+      "shortDescription": "Renaissance é o sétimo álbum de estúdio da cantora americana, Beyoncé.",
+      "description": "Renaissance é o sétimo álbum de estúdio da cantora americana, Beyoncé, lançado em 29 de julho de 2022, através da Parkwood Entertainment e Columbia Records. É seu primeiro lançamento solo em estúdio desde Lemonade e serve como a primeira parte de uma trilogia.",
+      "coverImage": "https://boulanger.scene7.com/is/image/Boulanger/0196587196714_h_f_l_0?wid=535&hei=535&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+      "featured": false,
+      "tags": [
+        "pop",
+        "dance"
+      ],
+      "photos": [
+        {
+          "id": 1,
+          "title": "Imagem principal",
+          "image": "https://boulanger.scene7.com/is/image/Boulanger/0196587196714_h_f_l_0?wid=535&hei=535&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha"
+        }
+      ]
+    }
+  ]
+}
