@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GlobalAlbums - Detalhes</title>
+  <title>GlobalAlbums - Overview</title>
   <link rel="stylesheet" href="assets/styles/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,13 +20,13 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand fw-bold" href="index.html">GlobalAlbums</a>
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menuDetalhe" aria-controls="menuDetalhe" aria-expanded="false" aria-label="Alternar navegação">
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menuOverview" aria-controls="menuOverview" aria-expanded="false" aria-label="Alternar navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="menuDetalhe">
+        <div class="collapse navbar-collapse" id="menuOverview">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
-            <li class="nav-item"><a class="nav-link" href="overview.html">Overview</a></li>
+            <li class="nav-item"><a class="nav-link active" href="overview.html">Overview</a></li>
             <li class="nav-item"><a class="nav-link" href="cadastro_album.html">Cadastrar álbum</a></li>
           </ul>
         </div>
@@ -35,22 +35,20 @@
   </header>
 
   <main class="container py-4 py-md-5">
-    <section class="mb-5">
-      <h1 class="section-title">Informações Gerais do Item</h1>
-      <div id="albumDetails"></div>
-    </section>
-
-    <section>
-      <h2 class="section-title">Fotos do Item Associado</h2>
-      <div id="photosGallery" class="row g-3"></div>
+    <section class="mb-4">
+      <h1 class="section-title">Distribuição de álbuns por gênero</h1>
+      <div class="overview-layout">
+        <div class="info-box chart-panel">
+          <canvas id="genreChart" aria-label="Gráfico de pizza por gênero" role="img"></canvas>
+        </div>
+        <aside class="info-box">
+          <h2 class="h5 mb-3">Resumo</h2>
+          <div id="genreSummary"></div>
+        </aside>
+      </div>
     </section>
   </main>
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
-  <script src="details.js"></script>
+  <script src="overview.js"></script>
 </body>
 </html>
