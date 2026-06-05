@@ -32,14 +32,16 @@ Mapa com localização dos eventos: Especialmente útil se os eventos forem em d
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Emanuel Phillipe Ribeiro Ferreira de Carvalho
+- Matricula: 879572
+
+### Descrição da Funcionalidade:
+A funcionalidade escolhida para aplicação no projeto foi um gráfico de pizza usando ChartJS com dados carregados de http://localhost:3000/albums, especificamente de acordo com os gêneros dos albuns cadastrados. O gráfico é mostrado na nova tela overview.html, na qual é possível filtrar com um clique a quantidade de albuns em cada uma das categorias apresentadas à direita.
 
 ## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
-
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
-
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
-
+![](public/assets/images/tela_home.png)
+![](public/assets/images/tela_detalhes.png)
+![](public/assets/images/tela_cadastro.png)
+![](public/assets/images/tela_overview_01.png)
+![](public/assets/images/tela_overview_02.png)
